@@ -1,12 +1,9 @@
 package com.victorlobato.gerenciamento.departamento.domain;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.OneToMany;
-import javax.persistence.Table;
-import java.util.ArrayList;
+import javax.persistence.*;
 import java.util.List;
 
+@SuppressWarnings("serial")
 @Entity
 @Table(name = "DEPARTAMENTOS")
 public class Departamento extends AbstractEntity<Long>{

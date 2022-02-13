@@ -2,6 +2,7 @@ package com.victorlobato.gerenciamento.departamento.domain;
 
 import javax.persistence.*;
 
+@SuppressWarnings("serial")
 @Entity
 @Table(name = "CARGOS")
 public class Cargo extends AbstractEntity<Long>{
