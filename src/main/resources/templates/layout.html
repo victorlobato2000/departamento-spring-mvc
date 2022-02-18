@@ -19,7 +19,7 @@
     <link href="/css/style.css" rel="stylesheet" />
 </head>
 <body>
-    <header>
+    <header th:replace="fragments/header :: cabecalho">
         <div>header</div>
     </header>
 
@@ -33,7 +33,7 @@
         </aside>
     </div>
 
-    <footer>
+    <footer th:replace="fragments/footer :: rodape">
         <div>rodapé</div>
     </footer>
 
