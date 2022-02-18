@@ -11,4 +11,5 @@ SISTEMA DE GERENCIAMENTO DE DEPARTAMENTO COM SPRING MVC
 - JS;
 - Bootstrap 4;
 - Webjars;
+- MySQL;
 - Maven.

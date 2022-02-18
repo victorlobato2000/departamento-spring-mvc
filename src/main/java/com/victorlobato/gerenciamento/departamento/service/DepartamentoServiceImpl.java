@@ -1,4 +1,4 @@
-package service;
+package com.victorlobato.gerenciamento.departamento.service;
 
 import com.victorlobato.gerenciamento.departamento.dao.DepartamentoDao;
 import com.victorlobato.gerenciamento.departamento.domain.Departamento;
