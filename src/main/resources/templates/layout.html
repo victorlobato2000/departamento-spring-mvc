@@ -23,13 +23,13 @@
         <div>header</div>
     </header>
 
-    <div>
+    <div class="layout-main">
         <aside>
-            <nav>
+            <nav th:replace="fragments/sidebar :: nav-sidebar">
                 <span>menu</span>
             </nav>
 
-            <section>conteúdo das páginas</section>
+            <section layout:fragment="corpo">conteúdo das páginas</section>
         </aside>
     </div>
 
